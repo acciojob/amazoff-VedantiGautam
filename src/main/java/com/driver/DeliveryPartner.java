@@ -5,6 +5,9 @@ public class DeliveryPartner {
     private String id;
     private int numberOfOrders;
 
+    public DeliveryPartner() {
+    }
+
     public DeliveryPartner(String id) {
         this.id = id;
         this.numberOfOrders = 0;
@@ -20,5 +23,8 @@ public class DeliveryPartner {
 
     public void setNumberOfOrders(Integer numberOfOrders) {
         this.numberOfOrders = numberOfOrders;
+    }
+    public void setId(String id) {
+        this.id = id;
     }
 }
